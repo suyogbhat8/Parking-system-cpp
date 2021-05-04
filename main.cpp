@@ -260,7 +260,7 @@ int main()
 	while(1) {
 	system("CLS");
 
-     cout << "\n\n\t\t ====== VEHICLE PARKING MANAGEMENT SYSTEM======";
+     cout << "\n\n\t\t ====== CAR PARKING MANAGEMENT SYSTEM======";
      cout <<"\n\n                                          ";
      cout<<" \n\t\t\t======================";
 
@@ -456,6 +456,7 @@ int main()
 			 cout<<endl;
 
        		}
+			cout<<"\n\n\t\tPress Enter to continue........................";
        		break;
    }
 
@@ -483,7 +484,7 @@ getch();
 int login(){
    string pass ="";
    char ch;
-   cout <<"\n\n\n\n\n\n\n\t\t\t\t\tCar Parking Reservation System Login";
+   cout <<"\n\n\n\n\n\n\n\t\t\t\t\tCar Parking Management System Login";
    cout << "\n\n\n\n\n\n\n\t\t\t\t\t\tEnter Password: ";
    ch = _getch();
    while(ch != 13){//character 13 is enter
